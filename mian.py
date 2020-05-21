@@ -76,7 +76,7 @@ for i in range(texts_count):
     if i == SELECTED_TEXT:
         print(source_texts[i])
     
-    text_file = open(source_texts[i], "r", encoding="utf8")
+    text_file = open('corp\\' + source_texts[i], "r", encoding="utf8")
     words = text_file.read()
     words = re.findall(r"[a-zA-Z]+", words)
     words = [word.lower() for  word in words]
@@ -120,16 +120,9 @@ for word in texts_data[SELECTED_TEXT]['word_counts'].keys():
 
 results.sort(key=lambda x: x[1], reverse=True)
 
-for i in range(len(results)):
-    if results[i][0] == 'dog':
-        print(i)
-        print(len(results))
-        print(texts_data[SELECTED_TEXT]['word_counts']['dog'],'/',texts_data[SELECTED_TEXT]['length'])
-
-result_lenth = 1000
 
 width = 0.75
-plt.bar([pair[0] for pair in results[:result_lenth]], [pair[1] for pair in results[:result_lenth]], width, align='center', )
+plt.bar([pair[0] for pair in results], [pair[1] for pair in results], width, align='center', )
 plt.xticks(rotation='vertical')
 plt.show()
 
