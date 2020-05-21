@@ -1,0 +1,247 @@
+Text mining 101: what it is and how it works for business
+The modern world generates enormous amounts of data, and it is growing year by year. Data has become the most valuable managerial resource to provide a competitive edge and originate knowledge management initiatives. Now manual data processing and classification has become costly and ineffective — and it has to be either automated entirely or used only when the important data is already selected automatically from the total quantity.
+
+Text mining is essentially the automated process of deriving high-quality information from text. Its main difference from other types of data analysis is that the input data is not formalized in any way, which means it cannot be described with a simple mathematical function.
+
+Text analysis, machine learning, and big data are now available to larger number of companies, but there is still not enough information about these methods and their benefits for business. In our article we want to contribute to this topic by exploring what challenges can be addressed by text mining and what applications we at WaveAccess have developed using this technology.
+
+
+
+Basic text mining tools
+
+Just in a few steps text mining systems extract key knowledge from a corpus of texts, decide whether any given text is related to the designated subject, and reveal the details of its contents.
+
+Document relevance (searching for texts relevant to the given subject). The subject can be quite narrow, such as academic papers on eye surgery.
+
+Named entities. If a document is considered relevant, one may need to find any specific entities in it — like the academics’ names, or diseases.
+
+Document type. A document can be tagged based on its content. For example, product reviews can be classified as positive or negative.
+
+Entity linking. Besides the facts themselves, it is often crucial to find the exact parts in documents that link the facts together — like the relation between a drug and its side effects, or between a person name and negative reviews of their work.
+
+Typical text mining tasks
+
+Text mining helps not only to extract useful knowledge from large unstructured data management projects, but also to improve their ROI. For business, this means they can use the benefits of big data without costly manual processing: just set the irrelevant data aside and get answers.
+
+Here is just a fraction of jobs perfect for text mining:
+
+Semantic scientific literature search
+
+Text mining can help in making your way through a vast array of scientific publications: it finds relevant articles, saves time and money.
+
+European and American pharmaceutical companies are legally obliged to recall their product, or modify the patient information leaflets and other related documents, if any side effects are discovered in the product. Besides the company’s own research, the main way of side effect discovery is reading scientific articles by other researchers. Due to the vast amount of articles published, it is virtually impossible to process all of them manually.
+
+To address this problem, scientific publishers (or data analysis companies affiliated by publishers) offer the service of automated article search using algorithms and approaches as designated by the client (a pharmaceutical company). As a result, the client gets a brief report of relevant articles in the required format. Having read the report, they may choose to buy specific articles.
+
+Priced publications
+
+The newest scientific articles and research results are only available from publishers for a fee, starting from USD 25-30 per article.
+
+
+
+For example, this article on food research, named “Impact of industrial processing and storage on major polyphenols and the antioxidant capacity of tropical highland blackberry (Rubus adenotrichus)”, costs almost USD 42, taxes not included.
+
+This situation puts most American pharmaceutical companies in a tough situation. They are obliged by law to track all mentions of their products in relation to side effects, in order to modify product specifications or to recall the products from the market. But buying all the articles that might mention a medication is expensive, let alone working hours to process all texts.
+
+At WaveAccess, we have developed a solution for our client in the pharmaceutical industry to automate article searches: we made a text mining platform to search articles and their metadata. Now the client only pays for articles that most likely contain the relevant text.
+
+Tasks like this require text mining due to their complexity: for example, not all sources have standardized bibliographic data — sometimes this data has to be searched separately. Sometimes even parsing the company address from metadata employs machine learning.
+
+Market research
+
+Text mining apps help to figure out the media space that a company lives in and how it is received by its audience.
+
+Companies need an unbiased appraisal of their products, as well as competing products, to build their development strategy. There are a lot of product reviews, but due to an abundance of sources (academic articles, magazines, news, product review websites), automated text processing excels here, too.
+
+Source credibility
+
+With text mining, it is still a tough job to tell fake reviews (especially if they are well-done) from fair and unbiased ones. So what’s the plan here?
+
+In pharmacy, “product reviews” are medication testing results that are published in trusted academic magazines. It is much harder to publish a “fake review” due to high standards for academic papers. So usually those reviews can be trusted, and their sources are credible.  
+
+But if the goal is to analyze all publicly accessible sources (all over the internet), we have to make a credibility ranking of authors and sources to reveal fake reviews. For academic papers and authors there is such thing as a citation index (CI). We use this parameter in article searches and include it in the final report, so that the reader can decide how much should they trust the given source.
+
+Another related but different job is sentiment analysis (also known as opinion mining). Here the goal is to estimate the author’s emotional attitude to a given object. This helps classify the reviews or figure out public opinion of the company, and has a lot more applications, too.
+
+Knowledge management
+
+Paperwork optimization is instrumental in understanding which data and documents are available to the company and setting up quick access to them.
+
+As the company scales, it accumulates a lot of knowledge assets. Those assets are often poorly structured and unstandardized. Departments may use their own inner document storages, or may not have them at all, which makes finding the necessary information nearly impossible. This problem is particularly apparent when companies are merged together.
+
+For better use of the accumulated knowledge, text mining systems may be used:
+
+to collect and standardize data from different sources automatically,
+
+to add metadata (such as document source, authors, creation date, etc.),
+
+to index and categorize the documents,
+
+to provide a document search interface by parameters defined by users.
+
+Such text mining systems may have user roles and authorization levels as directed by safety standards.
+
+Client service department optimization
+
+Besides internal documents, a company gets a lot of text data from the outside, — for example, input forms and orders from a website.
+
+Incoming requests from potential clients may often be lacking information. Sales managers spend time on request processing and client negotiations, as it is often unclear what the client wants and whether they are really interested in the offer.
+
+Text mining systems can sort incoming requests and give more information about clients and their needs. Order processing time is minimized, the client service department can serve more clients and the business can make more money overall.
+
+How text mining increases revenue?
+
+One of our customers is a company that does maintenance and repairs on industrial objects. They have a lot of repair categories (from road surfacing to electricity and dozens more), as well as two types of repairs:
+
+— Warranty repairs, which is free for the client;
+
+— Non-warranty repairs, which makes money for the company.
+
+The company gets up to 4,000 repair requests daily, and each request is processed by a human customer service manager. Managers create repair entries in a CRM system, choosing among repair categories and types in a pop-up list. Based on the amount of requests, they also plan the workload of repair teams.
+
+The requests are written in no particular format — so before the introduction of text mining, only a human manager could process it and fill all fields in a CRM entry, taking a lot of time. Also, it was not always obvious whether it was a warranty or a non-warranty case.
+
+WaveAccess has developed a system that helps the customer service department sort requests better, based on unformalized text only. This system suggests some categories that are most likely to fit a particular case, and helps employees find them quickly in the CRM pop-up list.
+
+But the most valuable aspect of the innovation was that the system now can detect non-warranty cases better, resulting in more revenue for the company.
+
+Spam filtering
+
+The goal of spam filtering is the classification of large streams of messages (emails or SMS) to sort out unwanted ones. For this job it is important to use fast algorithms, as they have to process a lot of data.
+
+Besides the text mining applications described above, there are other, more specific client needs where text mining is instrumental.
+
+Summary
+
+The main goal of text mining is obtaining knowledge that makes decision making more effective. As the amount of text data grows, its processing can be automated to save time and expenses.
+
+Since text data is unformalized and the goals of its processing are varied, there is no single approach for analysis, and this is the reason why text mining systems are so challenging to develop. They might be designed as decision making support systems in order to increase productivity of decision makers who use texts.
+
+In the second part of our "Text Mining 101" we will share tips on text mining process optimization, the development stages, and popular approaches to text mining projects.
+
+Implementation of text mining in information search problems
+
+One of the most common text mining tasks is searching for relevant documents and extracting information from them. Automation of this task is especially essential with the ever-growing amount of data. And if it’s not possible to do it entirely, even partially automated suggestions help experts save a great deal of time, and businesses — hundreds of thousand of dollars. A typical system, that solves such tasks, consists of two parts:
+
+Document collecting and standardizing;
+Document classification and analysis.
+Let’s examine these tasks in further detail.
+
+Document collecting and standardizing
+The goals at this stage are:
+
+— Ongoing document gathering and extracting the text structure data;
+— Collecting document metadata (date created, title, etc.);
+— Standardizing the document texts and metadata.
+
+As data can be gathered from various sources, the approach to data collection can be flexible too. Say, if the documents are occasionally uploaded in a given format, we would only need a format converter.
+
+But often there are cases when more preparation is needed:
+
+Data is collected as source document scans
+
+In this case, an optical character recognition engine (such as Tesseract) is used, and text is divided in sections and paragraphs. A common problem with optical recognition is that it often stumbles on texts with complex formatting (such as columns or tables): such elements make it harder to merge the scanned parts into one meaningful document. Moreover, sometimes scans contain multiple documents. For this reason, it is required to mark the beginning and the end of a given document with specific attributes.
+
+Data is collected as PDF or DJVU documents
+
+These formats are well-suited for viewing formatted documents, but not for storing structured data. PDF and DJVU files store symbol and word positions, which comes in handy for displaying and human reading, but these files don’t have any markup for sentence boundaries. Similar to document scans, PDF and DJVU files with complex formatting, tables, and imagery are a tough call for text mining.
+
+Data is collected from web sources
+
+Not all websites or systems that contain the required information have their own convenient API — sometimes it is a user interface that one has to work with. In this case web scraping is used, which is web page analysis and harvesting data from web. Besides html code analysis, computer vision systems are also instrumental in addressing specific tasks.
+
+Data is uploaded manually by users
+
+Usually, in this case the user has to automatically process a certain number of documents locally. For this reason, the system has to support a lot of document formats that the user might upload.
+
+Some metadata is often added to the uploaded documents: publication date, authors, source, document type, and so on. This metadata can be used to make document mining easier: for example, to find works by a certain author, or on a specific subject.
+
+A common case is when there are loads of data available, but we only need a fraction of it — say, if we have a library of medical and pharmaceutical data, but we are only interested in the specific company’s medications. Then, instead of processing all documents with precise but resource-consuming algorithms, we should use full-text indexes for quick document access by a list of keywords. This step can be skipped if the resulting system is highly domain-specific and has a few text sources. But if our goal is to collect data from several sources, it is cheaper and more convenient to use a specific standardized interface to get documents. One of the tools for this job is Solr, an open-source full-text search platform, but other instruments are available, too.
+
+Document classification and analysis
+After the documents are collected into a corpus (and probably filtered), they can be processed using various text mining algorithms in order to define whether a document is relevant to the subject and what information it contains. For example, whether a product is mentioned in the document, and if yes, is the context positive or negative. After processing, a document report is generated for further manual or automated processing.
+
+Text mining approaches and algorithms are divided in the following groups:
+
+1) Text normalization and pre-processing;
+2) Entities and relations search using a set of rules;
+3) Statistical methods and machine learning.
+
+These approaches can be used together, so complex systems often use a combination.
+
+1) Text normalization and pre-processing
+
+This stage precedes the other ones and consists of the following:
+
+Sentences are divided into words;
+Stop words (such as particles, prepositions, exclamations, and so on) are eliminated;
+The remaining words are normalized (“humans” => “human”, “have achieved” => “achieve”) and their parts of speech are identified.
+Obviously, these steps are highly dependent on the text language, and are not always necessary — for example, some text mining algorithms can gather knowledge from stop words, too.
+
+2) Set of rules
+
+This approach is based on the set of rules developed by an expert in a particular domain. Here are some examples of rules:
+
+— “Select product names mentioned within three sentences of the company name”;
+
+— “Select services that match the pattern: <company name> offers <service name>”;
+
+— “Eliminate documents that have less than three mentions of the company’s products”.
+
+Language specifications
+
+The set of rules are focused on the word order which makes this approach work well with analytic languages — such as English, where relationships between words in sentences are conveyed utilizing syntax and function words (particles, prepositions, etc.).
+
+In the case of synthetic languages (e.g., German, Greek, Latin, Russian), where word relationships are expressed using word forms and the sequence is not crucial, sets of rules are less effective, but still applicable.
+
+In analytic languages, the “service” words (particles, prepositions, etc.) do the job of conveying the form and tense — and they are “outside” the core word, leaving its form unchanged:
+
+| The quick brown fox jumps over the lazy dog.
+
+As opposed to synthetic languages, this sentence in English does not assume whether the quick brown fox is male or female, and the lazy dog’s gender is not obvious as well. Meanwhile, the core words “fox” and “dog” are clear and unchanged.
+
+Set of rules advantages and disadvantages
+
+Advantages
+
+No need in training data and its markup;
+Decisions made by the system are clear and easily interpretable to a human user.
+Disadvantages
+
+A significant effort can be necessary to develop a set of rules that will work with the given precision;
+Rules cannot process new cases of relevant data that are even slightly different from the pattern.
+3) Statistical methods and machine learning
+
+Due to the complex and hardly formalizable structure of text data, using machine learning is highly complicated. A lot of effort and a number of approaches or algorithms can be tested to find a solution that gives an acceptable output in the given context. Here are some examples of algorithms that may be used:
+
+Text pre-processing algorithms. Besides word normalization and stop word elimination, some algorithms require the text to be converted into a numerical form — as a vector or a vector sequence. Most used text pre-processing algorithms are:
+
+One-hot encoding is the easiest algorithm that converts the words in a text into N-long vectors with a nonzero value in the i-th position, where N is the language dictionary length and i is the word position in that dictionary. However, result vectors are sparse and have high dimensionality, which sophisticates the use of this method.
+Word2vec is a group of algorithms that also vectorize the word, but the resulting vector has much less length as compared to one-hot encoding and contains real numbers (not integers). With word2vec, words with similar meaning will have similar vectors.
+Bag of words is an algorithm based on word frequency (the number of times a word appears in the document). It forms a vector describing the text in general, but it almost completely ignores the text structure.
+TF-IDF is an algorithm that forms a vector of tf-idf values for each text. The tf–idf value is the word frequency in the given text divided by the reverse frequency of this word in the entire corpus. The reverse frequency can be calculated in several ways, but the general idea is: if a word is often used in the language, then it is probably less valuable for classification (a lot of articles and prepositions fall in this category, as well as words like “go”, “work”, “have”, “need”, etc.), and its reverse frequency is low. On the other hand, rare words have higher reverse frequency — and are more valuable for classification.
+Named entity recognition and relation extraction algorithms. The job is to find the particular terms (company, product, service names, etc.) and categorize them with tags, and find relations between those entities. For this job, the following algorithms can be used:
+
+Hidden Markov model (HMM) that represents the statistical model as an oriented graph.
+Conditional random field (CRF) is a statistical model too, but it does not use an oriented graph.
+Neural networks, LSTM and CNN in particular. LSTM respects the context because it is not recurrent and stores the context data throughout processing. CNN extracts data based on patterns that reveal essential features.
+General machine learning methods. If the “sliding window” technique is used, general machine learning methods, — such as logistic regression, support vector machines, naive Bayes classifier, decision tree and others that require a fixed list of features on input, — can be used. But this approach doesn't consider context outside the window. So, if related words are located at a distance that is greater than the window length or a whole text block has some idea (for example, product description or negative review), this information will be ignored, which can lead to incorrect results.
+Classification and topic modeling algorithms. The job is to form a brief description of the processed documents — for example, document type or topic. The following algorithms can be used for this:
+
+Latent Dirichlet Allocation (LDA) — a statistical model based on Dirichlet distribution. It treats the text as a combination of topics.
+Latent Semantic Analysis (LSA) is a method that represents the corpus as a term-document matrix and decomposes it in order to define the topics of documents.
+Additive Regularization of Topic Models (ARTM) method combines the existing statistical models with regularization to better take the text structure into account.
+General machine learning methods that use results of bag of words, tf-idf and other algorithms as inputs.
+Algorithm performance may vary a lot depending on the job. For example, with different text subjects or named entities some algorithms work better than others. So, it makes sense to try different approaches when building a text mining system, and use the one that gives the best result, or combine the results of different techniques.
+
+Advantages and disadvantages of statistical methods and machine learning
+
+Advantages
+
+Automatic search of relation between the text characteristics and the required result;
+Complex relations in a text are taken into account;
+Ability to generalize (correct processing of cases that were not present in a training set).
+Disadvantages
+
+A training set is required, which can be quite large, depending on the algorithm;
+Decisions made by the system are not always clear and interpretable. It makes it harder to detect and fix problems if the system gives incorrect results. Read more at wave-access.com

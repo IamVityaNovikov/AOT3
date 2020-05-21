@@ -1,0 +1,86 @@
+What is text mining, how does it work and why is it useful? This article will help you understand the basics in just a few minutes.
+
+Article
+What is text mining?
+
+Text mining seeks to extract useful and important information from heterogeneous document formats, such as web pages, emails, social media posts, journal articles, etc. This is often done through identifying patterns within texts, such as trends in words usage, syntactic structure, etc.
+
+People often talk about ‘text and data mining (TDM)’ at the same time, but strictly speaking text mining is a specific form of data mining that deals with text.
+
+Why do we need it?
+
+Text mining has many applications. For example, text mining can help find new and innovative technologies within certain domains. It is a very efficient method of generating new information and knowledge. The practice enables companies to cut down on the time spent on reading large texts and literary extracts. This means key resources can be found more rapidly and with great efficiency. It also allows users to obtain new information that would otherwise be difficult to find.
+
+What kind of people do text mining?
+
+Text mining technology is now broadly applied by a wide variety of users, from governmental organisations, research institutions, and business for their daily needs. Here are some examples of use in different fields:
+
+Research: e.g. knowledge discovery, medical/healthcare - in the past it took much time for a human researcher to analyse and obtain relevant information. In some cases, this information was not even retrievable. Text mining enables researchers to find more information and in a faster and more efficient way.
+Business: e.g. risk management, resume filtering - Large companies use text mining to help decision making and to quickly answer customer queries.
+Security: e.g. anti-terrorism - text mining analysis of blogs and other online text sources is used to prevent internet crimes and fight against fraud.
+Daily, e.g. spam filtering, social media data analysis - text mining is used by email websites to create more reliable and effective filtering methods. It is also used for social media purposes by identifying relationships between users and certain products or to determine opinions of users on particular topics.
+How is text mining useful for science?
+
+The uses of text mining are virtually endless, but let’s focus more on how it is useful for science and research. Scientists communicate through scientific publications and it is estimated that over 50 million such publications exist (JINHA, A. E. (2010), Article 50 million: an estimate of the number of scholarly articles in existence. Learned Publishing, 23: 258–263. doi:10.1087/20100308) with an additional 2.5 million new articles being published every year (WARE, M. and MABE, M. (2015), The STM Report (4th edition)). It is increasingly difficult for researchers to keep track of what is published in their own field. On top of that there is a huge influx of other sorts of data across all the sciences, such as web pages, public organization reports (e.g., court transcripts, meeting minutes), books, etc. Text mining can help to solve this problem and to find new information.
+
+Wait a minute, text mining, is that how I get those personalised ads?
+
+As said before, text mining technologies have many applications. Among these, it can be used to make links between potential customers and products for marketing purposes. Companies and governments can also highlight relationships you may deem personal.
+
+What’s the difference between text mining and Google?
+
+Search engines such as Google, retrieve all the documents that contain the keywords you’ve specified. There is no added value to the data. Text mining takes things a step further by extracting precise information based on much more than just keywords. Instead, it searches for entities or concepts, relationships, phrases, and/or sentences. It tries to determine the actual meaning based on Natural Language Processing (NLP) algorithms, which allow it to recognize similar concepts. A search using text mining can identify facts, relationships and inferences that are not quite obvious.
+
+How does it work, this text and data mining?
+
+Text mining can be divided into five steps:
+
+text mining steps
+
+Gathering: Collecting data from different resources, such as website, emails, customer comments, document file. Depending on the application, this process can be completely automated or guided by the text miner.
+Pre-processing, such as content identification / extraction of representative features 
+Text clean-up: removing of any unnecessary or unwanted information such as ads from pages.
+Tokenization: a computer only ‘sees’ a string of characters, without for example being able to identify paragraphs, sentences or words. Tokenization splits the text in meaningful entities (words, sentences, etc.) given present white spaces and punctuations.
+Feature extraction (also called attribute selection): it is the process of characterizing the text to obtain a set a quantitative measurements. For example frequency of words in a text, type of words, syntactic information. These features can then be used for further processing.
+Index: Creating an index of certain terms, their locations and numbers. This allows quick access to and structuring of the processed data.
+Mining: At this step, the text has been properly pre-processed and can now be ‘mined’. For that, we apply different data exploration techniques to reveal new knowledge. These can for example include identifying mention of specific terms, linking of these terms with a dictionary or thesaurus for disambiguation, and identifying relationships between different terms.
+Analysis: The mining steps produce raw results. These need to be evaluated and visualized so that they can be interpreted with respect to the questions the text-miner wants to investigate.
+ 
+
+An example can illustrate these five steps:
+
+Imagine you are selling animal calendars. You want to know if it is a good investment for you to advertise on blogging websites, and therefore you would like to know what percentage of blog posts are talking about animals.
+
+Firstly, you need to gather all the texts from all the blog posts you can find. Since there may be hundreds of thousands of such texts on the internet, you probably do not want to download them manually, one by one. So you need software to crawl the web for you, download the posts it finds, and organise them in an appropriate database.
+
+Secondly, you will want to pre-process the collected material so that the next tools (discussed in steps 3 to 5) can work more efficiently. For example, you will want to remove ads, web page menus, source code from the HTML web pages, etc. Then, you might want to compute some characteristics (feature extraction) for your collection of texts. For example, you may want to know the number of words of every post, so that you can reject those that are too small (e.g., 10 words) or too large (e.g., 10 000 words). Such entries in your database are probably not representative and may be errors generated by your software in the first step. To obtain these word counts, you will first need to split the texts (series of characters) into words (tokenization).
+
+At the third step, you may want to create indexes. For example, to list what words have been found in what texts. You can think of this as the index of a book. Without an index, it is very hard to locate the information on a specific topic. But with an index, it is much easier and quicker to find what you are looking for. This is also true for the software looking for words in your huge blog database.
+
+Then, at the fourth step, you will want to mine the texts to extract some information that will help you answer your questions. In this case, you will want to identify words that refer to animals. A name entity recognizer for animals will try to recognize every word that refers to an animal, such as dog, cat, cats, kittens, feline, mammal, American robin, Turdus migratorius, etc. You may also want to run what are known as 'syntactic algorithms' to identify which words are nouns and which are verbs, so that you include “I’ve seen a duck” but exclude “I was too inebriated to duck his punch”. Many algorithms are needed to distinguish, for example, the use of cat in “I've got a beautiful cat” and “run cat file.txt in your command prompt to display your text.”, or to reject “He moved like a spider” or “He is a dingo” from the text you consider as talking about animals. And what about cat women and Donkey-Kong? Clearly, a lot of intelligence is needed to accurately perform this task.
+
+Then, at the fifth step, you want to perform analyses and plot graphs. For example, you may require a bar plot showing the percentage of blog posts talking about animals for each of the ten most important blog hosting websites. With this information, you can for example convince your collaborator that it is a good idea to invest money in publicity for your animal calendars on whatablog.com.
+
+ 
+
+What does OpenMinTeD do?
+
+The goal of OpenMinTeD is to create an infrastructure that allows text mining tools to be easily used to analyse scientific (related) publications. At this moment, researchers use many different tools and methods for text mining, each specific for their specialty or research question. On top of that they have to look for content in many different places and figure things out on their own. OpenMinTeD is a joint initiative of 16 institutes that work on providing a platform where these different tools and resources can be combined and easily used. The project supports the training of prospective users and developers. It also aims to demonstrate the benefits of using text mining for users of any background - be they research experts or scholars.
+
+Sounds like a lot of work, is it worth it?
+
+It is a lot of work, but we definitely think it is worth it. The platform is designed to help researchers by combining different text mining tools and content. For example, this enables better and faster support for decision-making and more effective and productive generation of useful knowledge.
+
+Are there text mining courses in universities?
+
+Text mining is one of the disciplines of computer sciences and engineering. If you are interested in following some course on this topic, you should be able to find courses at any university that has computer science and/or computer engineering programs.
+
+Training in text mining is particularly important as it provides future generations with the skills for using text mining tools to carry out projects more efficiently and effectively. This will greatly benefit the scientific community as it will equip the new generation of researchers with the ability to extract key information, leading to new discoveries.
+
+Text mining is also becoming more widely used in other disciplines, like medicine or humanities, but text mining training as part of those courses is still much less developed.
+
+Can I do it myself?
+
+Sure! Login to the OpenMinTeD platform for example and start exploring the different components that are available. You should quickly get a feel for what can be done relatively easily and what takes a little longer. Does it still look a bit complex to you? No worries: tutorials and online guidelines are on the way.
+
+If you want to read and learn more about text mining, have a look at our knowledge base (https://www.fosteropenscience.eu/openminted). It contains a lot of materials you may find useful.

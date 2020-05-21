@@ -1,0 +1,32 @@
+Comparison of Top 6 Python NLP Libraries
+
+Natural language processing (NLP) is getting very popular today, which became especially noticeable in the background of the deep learning development. NLP is a field of artificial intelligence aimed at understanding and extracting important information from text and further training based on text data. The main tasks include speech recognition and generation, text analysis, sentiment analysis, machine translation, etc.
+
+In the past decades, only experts with appropriate philological education could be engaged in the natural language processing. Besides mathematics and machine learning, they should have been familiar with some key linguistic concepts. Now, we can just use already written NLP libraries. Their main purpose is to simplify the text preprocessing. We can focus on building machine learning models and hyperparameters fine-tuning.
+
+There are many tools and libraries designed to solve NLP problems. Today, we want to outline and compare the most popular and helpful natural language processing libraries, based on our experience. You should understand that all the libraries we look at have only partially overlapped tasks. So, sometimes it is hard to compare them directly. We will walk around some features and compare only those libraries, for which this is possible.
+
+General overview
+NLTK (Natural Language Toolkit) is used for such tasks as tokenization, lemmatization, stemming, parsing, POS tagging, etc. This library has tools for almost all NLP tasks.
+
+Spacy is the main competitor of the NLTK. These two libraries can be used for the same tasks.
+
+Scikit-learn provides a large library for machine learning. The tools for text preprocessing are also presented here.
+
+Gensim is the package for topic and vector space modeling, document similarity.
+
+The general mission of the Pattern library is to serve as the web mining module. So, it supports NLP only as a side task.
+
+Polyglot is the yet another python package for NLP. It is not very popular but also can be used for a wide range of the NLP tasks.
+
+To make a comparison more vivid, we prepared a table that shows the pros and cons of the libraries.
+
+
+
+Updated: July 2018
+Conclusion
+In this article, we compared some features of several popular natural language processing libraries. While most of them provide tools for overlapping tasks, some use unique approaches for specific problems. Definitely, the most popular packages for NLP today are NLTK and Spacy. They are the main competitors in the NLP field. In our opinion, the difference between them lies in the general philosophy of the approach to solving problems.
+
+NLTK is more academic. You can use it to try different methods and algorithms, combine them, etc. Spacy, instead, provides one out-of-box solution for each problem. You don’t have to think about which method is better: the authors of Spacy already took care of this. Also, Spacy is very fast (several times faster than NLTK). One downside is the limited number of languages Spacy supports. However, the number of supported languages is increasing consistently. So, we think that Spacy would be an optimal choice in most cases, but if you want to try something special you can use NLTK.
+
+Despite the popularity of these two libraries, there are many different options, and the choice which NLP package to choose depends on the specific problem you have to solve. So, if you happen to know other useful NLP library, please let our readers know in the comment section.
