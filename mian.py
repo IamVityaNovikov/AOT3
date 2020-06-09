@@ -5,7 +5,7 @@ import matplotlib.mlab as mlab
 import matplotlib.pyplot as plt
 
 
-SELECTED_TEXT = 6
+SELECTED_TEXT = 0
 
 
 # texts about dogs
