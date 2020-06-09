@@ -4,6 +4,8 @@ import math
 import matplotlib.mlab as mlab
 import matplotlib.pyplot as plt
 
+SPECIFIC_WORDS_PERCENS = 0.05
+
 
 # texts about dogs
 source_texts = [["dogs1.txt",
@@ -132,7 +134,7 @@ for corp_data in texts_data:
     collection_results.append(result)
 
 
-specific_words = [[word for word, _ in terms[:int(len(terms) * 0.05)]]for terms in collection_results]
+specific_words = [[word for word, _ in terms[:int(len(terms) * SPECIFIC_WORDS_PERCENS)]]for terms in collection_results]
 
 # remove non-specific words from specific words
 for i, words in enumerate(specific_words):
